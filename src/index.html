@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-image" style="background-image: url(1.jpg)">
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container">
+                    <div class="navbar-brand d-flex align-items-center">
+                        <img src="2.jpg" width="100" height="100" alt="" class="plank img-fluid">
+                        <a href="#" class="text-danger" style="text-decoration: none;">
+                            <p class="amogus">Турнир по мини-футболу</p>
+                        </a>
+                    </div>
+                    <button type="button" class="Atomic">Учавствовать</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+          <div class = "row signature">
+            <h1>Участники</h1>
+          </div>
+          <div class="container">
+            <div class="row row-cols-xs-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 myclass">
+              <div class="col-12 col-sm-8 col-md-4 col-lg-4 col-xl-4 g-3 cl">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal" id="object-1">
+                  <img src="6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Белый Волк</h5>
+                    <p class="card-text">Мини-футбольный клуб был создан в феврале 2023 года. Основателем является Стрюков Владислав. В составе клуба на данный момент 23 игрока. Является студенческим объединением Университета.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-4 col-lg-4 col-xl-4 g-3 cl">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal" id="object-2">
+                  <img src="5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ветераны</h5>
+                    <p class="card-text">Эта команда существует с 2013 года. В её состав входят выпускники различных институтов.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-4 col-lg-4 col-xl-4 g-3 cl">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal" id="object-3">
+                  <img src="4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Сытый кот</h5>
+                    <p class="card-text">Мини-футбольный клуб был создан в марте 2022 года. Основателем является Долгоколенков Данил. В составе клуба на данный момент 14 игроков. Является студенческим объединением Университета.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-4 col-lg-4 col-xl-4 g-3 cl">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal" id="object-4">
+                  <img src="3.jpg" class="card-img-top img-fluid" alt="-">
+                  <div class="card-body">
+                    <h5 class="card-title">Piemonto Calcio</h5>
+                    <p class="card-text">Команда состоит из студентов разных институтов. Они выступали на 48-ой спартакиаде ТюмГУ и дошли до полуфинала.</p>
+        
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-8 col-md-4 col-lg-4 col-xl-4 g-3 cl">
+                <div class="card" data-bs-toggle="modal" data-bs-target="#modal" id="object-5">
+                  <img src="forever_young.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Forever Young</h5>
+                    <p class="card-text">Команда состоит из студентов Финансово-экономического института. Средний возраст игроков 18 лет. Играют как парни так и девушки.</p>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel" popover.hover.top="Popover!" title="Бутерброд">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" popover.hover.top="Popover!" title="Состав">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" popover.hover.top="Popover!" title="Закрыть">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="position-fixed top-0 end-0 p-3">
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                  <strong class="me-auto">Функционала еще нет</strong>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                  Скоро.
+                </div>
+              </div>
+          </div>
+        </main>
+        <footer>
+          <div class="container d-flex justify-content-between">
+            <div class="about font-weight-bold">Стрюков Владислав</div>
+            <div class="base">
+              <a href=""
+                ><img src="f1.png" alt="vk" class="icons"
+              /></a>
+              <a href=""
+                ><img src="f2.png" alt="instagram" class="icons"
+              /></a>
+              <a href=""
+                ><img src="f3.png" alt="twitter" class="icons"
+              /></a>
+            </div>
+          </div>
+        </footer>
+    </div>
+  <script type="module" src="js/index.js"></script>
+</body>
+</html>
